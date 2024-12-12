@@ -70,6 +70,7 @@ async function update(user) {
 			username: user.username,
 			fullname: user.fullname,
 			score: user.score,
+			isAdmin: user.isAdmin
 		}
 		const collection = await dbService.getCollection('user')
 		await collection.updateOne({ _id: userToSave._id }, { $set: userToSave })
@@ -92,6 +93,7 @@ async function add(user) {
 			password: user.password,
 			fullname: user.fullname,
 			score: user.score || 0,
+			isAdmin: false,
 		}
 		const collection = await dbService.getCollection('user')
 		await collection.insertOne(userToAdd)

@@ -17,7 +17,7 @@ export const toyService = {
 async function query(filterBy = { txt: '' }) {
 	try {
 		const criteria = {
-			vendor: { $regex: filterBy.txt, $options: 'i' },
+			name: { $regex: filterBy.txt, $options: 'i' },
 		}
 		const collection = await dbService.getCollection('toy')
 		var toys = await collection.find(criteria).toArray()
@@ -65,7 +65,7 @@ async function add(toy) {
 async function update(toy) {
 	try {
 		const toyToSave = {
-			vendor: toy.vendor,
+			name: toy.name,
 			price: toy.price,
 		}
 		const collection = await dbService.getCollection('toy')

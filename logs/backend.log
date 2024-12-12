@@ -13,3 +13,191 @@
 12.12.2024, 16:25:27 - INFO - Req was made | / 
 12.12.2024, 16:28:29 - INFO - server.js loaded... 
 12.12.2024, 16:28:29 - INFO - Server listening on port http://127.0.0.1:3030/ 
+12.12.2024, 16:40:13 - INFO - server.js loaded... 
+12.12.2024, 16:40:13 - INFO - Server listening on port http://127.0.0.1:3030/ 
+12.12.2024, 16:40:22 - INFO - Req was made | / 
+12.12.2024, 16:40:25 - INFO - Req was made | / 
+12.12.2024, 16:41:25 - INFO - Req was made | / 
+12.12.2024, 16:44:00 - INFO - server.js loaded... 
+12.12.2024, 16:44:00 - INFO - Server listening on port http://127.0.0.1:3030/ 
+12.12.2024, 16:44:47 - INFO - Req was made | / 
+12.12.2024, 16:44:52 - INFO - Req was made | / 
+12.12.2024, 17:16:14 - DEBUG - auth.service - login with username: admin 
+12.12.2024, 17:16:14 - ERROR - Failed to Login Error: Invalid username or password 
+12.12.2024, 17:16:27 - DEBUG - auth.service - login with username: admin 
+12.12.2024, 17:16:27 - ERROR - Failed to Login Error: Invalid username or password 
+12.12.2024, 17:17:50 - DEBUG - auth.service - login with username: admin 
+12.12.2024, 17:17:50 - ERROR - Failed to Login Error: Invalid username or password 
+12.12.2024, 17:19:30 - INFO - Req was made | / 
+12.12.2024, 17:19:37 - DEBUG - auth.service - login with username: admin 
+12.12.2024, 17:19:37 - ERROR - Failed to Login Error: Invalid username or password 
+12.12.2024, 17:19:38 - DEBUG - auth.service - login with username: admin 
+12.12.2024, 17:19:38 - ERROR - Failed to Login Error: Invalid username or password 
+12.12.2024, 17:19:41 - INFO - Req was made | / 
+12.12.2024, 17:21:46 - INFO - server.js loaded... 
+12.12.2024, 17:21:46 - INFO - Server listening on port http://127.0.0.1:3030/ 
+12.12.2024, 17:21:56 - DEBUG - auth.service - login with username: admin 
+12.12.2024, 17:21:56 - ERROR - Failed to Login Error: Invalid username or password 
+12.12.2024, 17:25:39 - INFO - server.js loaded... 
+12.12.2024, 17:25:39 - INFO - Server listening on port http://127.0.0.1:3030/ 
+12.12.2024, 17:25:47 - INFO - server.js loaded... 
+12.12.2024, 17:25:47 - INFO - Server listening on port http://127.0.0.1:3030/ 
+12.12.2024, 17:26:17 - INFO - server.js loaded... 
+12.12.2024, 17:26:17 - INFO - Server listening on port http://127.0.0.1:3030/ 
+12.12.2024, 17:33:26 - INFO - Req was made | / 
+12.12.2024, 17:33:41 - DEBUG - auth.service - login with username: admin 
+12.12.2024, 17:33:41 - ERROR - Failed to Login Error: Invalid username or password 
+12.12.2024, 17:33:42 - DEBUG - auth.service - login with username: admin 
+12.12.2024, 17:33:42 - ERROR - Failed to Login Error: Invalid username or password 
+12.12.2024, 17:34:05 - DEBUG - auth.service - login with username: admin 
+12.12.2024, 17:34:05 - ERROR - Failed to Login Error: Invalid username or password 
+12.12.2024, 18:04:12 - DEBUG - auth.service - login with username: admin 
+12.12.2024, 18:04:12 - ERROR - Failed to Login Error: Invalid username or password 
+12.12.2024, 18:04:15 - INFO - Req was made | / 
+12.12.2024, 18:04:18 - INFO - Req was made | / 
+12.12.2024, 18:05:26 - INFO - server.js loaded... 
+12.12.2024, 18:05:26 - INFO - Server listening on port http://127.0.0.1:3030/ 
+12.12.2024, 18:05:42 - DEBUG - auth.service - login with username: admin 
+12.12.2024, 18:05:42 - ERROR - Failed to Login Error: Invalid username or password 
+12.12.2024, 18:07:05 - INFO - server.js loaded... 
+12.12.2024, 18:07:05 - INFO - Server listening on port http://127.0.0.1:3030/ 
+12.12.2024, 18:07:08 - DEBUG - auth.service - login with username: admin 
+12.12.2024, 18:07:08 - ERROR - Failed to Login Error: Invalid username or password 
+12.12.2024, 18:07:34 - INFO - server.js loaded... 
+12.12.2024, 18:07:34 - INFO - Server listening on port http://127.0.0.1:3030/ 
+12.12.2024, 18:07:40 - DEBUG - auth.service - login with username: admin 
+12.12.2024, 18:07:40 - ERROR - Failed to Login Error: Invalid username or password 
+12.12.2024, 18:08:48 - DEBUG - auth.service - signup with username: admin, fullname: admin admin 
+12.12.2024, 18:08:48 - DEBUG - auth.route - new account created: {"username":"admin","password":"$2b$10$RSYDfECsmL0/hSiO.jLH/eZv0ZFV46YEtgcJHabB3hWNyrbbSWNka","fullname":"admin admin","score":0,"_id":"675b0a90e56475eddeabdbff"} 
+12.12.2024, 18:08:48 - DEBUG - auth.service - login with username: admin 
+12.12.2024, 18:09:13 - INFO - Req was made | / 
+12.12.2024, 18:09:13 - INFO - Req was made | / 
+12.12.2024, 18:10:45 - INFO - server.js loaded... 
+12.12.2024, 18:10:45 - INFO - Server listening on port http://127.0.0.1:3030/ 
+12.12.2024, 18:10:46 - INFO - server.js loaded... 
+12.12.2024, 18:10:46 - INFO - Server listening on port http://127.0.0.1:3030/ 
+12.12.2024, 18:11:38 - INFO - server.js loaded... 
+12.12.2024, 18:11:38 - INFO - Server listening on port http://127.0.0.1:3030/ 
+12.12.2024, 18:11:50 - DEBUG - auth.service - signup with username: admin, fullname: admin admin 
+12.12.2024, 18:11:50 - DEBUG - auth.route - new account created: {"username":"admin","password":"$2b$10$HyIZcFj9jAc3r1.VA.wgGeaJUsVx6WG5U3aYmbnmJ28BwXyVCkgzq","fullname":"admin admin","score":0,"_id":"675b0b46ac3b78a5b453caf1"} 
+12.12.2024, 18:11:50 - DEBUG - auth.service - login with username: admin 
+12.12.2024, 18:13:20 - INFO - Req was made | / 
+12.12.2024, 18:13:20 - INFO - Req was made | / 
+12.12.2024, 18:13:27 - INFO - Req was made | / 
+12.12.2024, 18:13:27 - INFO - Req was made | / 
+12.12.2024, 18:14:01 - INFO - server.js loaded... 
+12.12.2024, 18:14:01 - INFO - Server listening on port http://127.0.0.1:3030/ 
+12.12.2024, 18:14:18 - INFO - server.js loaded... 
+12.12.2024, 18:14:18 - INFO - Server listening on port http://127.0.0.1:3030/ 
+12.12.2024, 18:14:27 - INFO - server.js loaded... 
+12.12.2024, 18:14:27 - INFO - Server listening on port http://127.0.0.1:3030/ 
+12.12.2024, 18:14:42 - INFO - Req was made | / 
+12.12.2024, 18:14:43 - INFO - Req was made | / 
+12.12.2024, 18:15:39 - INFO - Req was made | / 
+12.12.2024, 18:15:39 - INFO - Req was made | / 
+12.12.2024, 18:16:21 - INFO - Req was made | / 
+12.12.2024, 18:16:22 - INFO - Req was made | / 
+12.12.2024, 18:16:27 - INFO - Req was made | / 
+12.12.2024, 18:16:30 - INFO - Req was made | / 
+12.12.2024, 18:17:19 - INFO - server.js loaded... 
+12.12.2024, 18:17:19 - INFO - Server listening on port http://127.0.0.1:3030/ 
+12.12.2024, 18:17:30 - INFO - server.js loaded... 
+12.12.2024, 18:17:30 - INFO - Server listening on port http://127.0.0.1:3030/ 
+12.12.2024, 18:17:37 - INFO - server.js loaded... 
+12.12.2024, 18:17:37 - INFO - Server listening on port http://127.0.0.1:3030/ 
+12.12.2024, 18:19:03 - INFO - Req was made | / 
+12.12.2024, 18:19:09 - INFO - Req was made | / 
+12.12.2024, 18:19:17 - INFO - Req was made | / 
+12.12.2024, 18:22:27 - INFO - server.js loaded... 
+12.12.2024, 18:22:27 - INFO - Server listening on port http://127.0.0.1:3030/ 
+12.12.2024, 18:22:37 - INFO - Req was made | / 
+12.12.2024, 18:23:09 - INFO - Req was made | / 
+12.12.2024, 18:23:19 - INFO - Req was made | / 
+12.12.2024, 18:25:19 - INFO - server.js loaded... 
+12.12.2024, 18:25:19 - INFO - Server listening on port http://127.0.0.1:3030/ 
+12.12.2024, 18:25:21 - INFO - server.js loaded... 
+12.12.2024, 18:25:21 - INFO - Server listening on port http://127.0.0.1:3030/ 
+12.12.2024, 18:25:59 - INFO - server.js loaded... 
+12.12.2024, 18:25:59 - INFO - Server listening on port http://127.0.0.1:3030/ 
+12.12.2024, 18:26:02 - INFO - server.js loaded... 
+12.12.2024, 18:26:02 - INFO - Server listening on port http://127.0.0.1:3030/ 
+12.12.2024, 18:26:04 - INFO - server.js loaded... 
+12.12.2024, 18:26:04 - INFO - Server listening on port http://127.0.0.1:3030/ 
+12.12.2024, 18:27:41 - INFO - Req was made | / 
+12.12.2024, 18:28:04 - INFO - server.js loaded... 
+12.12.2024, 18:28:04 - INFO - Server listening on port http://127.0.0.1:3030/ 
+12.12.2024, 18:28:15 - INFO - server.js loaded... 
+12.12.2024, 18:28:15 - INFO - Server listening on port http://127.0.0.1:3030/ 
+12.12.2024, 18:28:28 - INFO - server.js loaded... 
+12.12.2024, 18:28:28 - INFO - Server listening on port http://127.0.0.1:3030/ 
+12.12.2024, 18:29:22 - INFO - server.js loaded... 
+12.12.2024, 18:29:22 - INFO - Server listening on port http://127.0.0.1:3030/ 
+12.12.2024, 18:29:58 - INFO - server.js loaded... 
+12.12.2024, 18:29:58 - INFO - Server listening on port http://127.0.0.1:3030/ 
+12.12.2024, 18:30:10 - INFO - server.js loaded... 
+12.12.2024, 18:30:10 - INFO - Server listening on port http://127.0.0.1:3030/ 
+12.12.2024, 18:32:00 - INFO - server.js loaded... 
+12.12.2024, 18:32:00 - INFO - Server listening on port http://127.0.0.1:3030/ 
+12.12.2024, 18:32:17 - INFO - server.js loaded... 
+12.12.2024, 18:32:17 - INFO - Server listening on port http://127.0.0.1:3030/ 
+12.12.2024, 18:32:21 - INFO - server.js loaded... 
+12.12.2024, 18:32:21 - INFO - Server listening on port http://127.0.0.1:3030/ 
+12.12.2024, 18:32:30 - INFO - Req was made | / 
+12.12.2024, 18:32:59 - DEBUG - auth.service - login with username: admin 
+12.12.2024, 18:32:59 - ERROR - Failed to Login Error: Invalid username or password 
+12.12.2024, 18:33:06 - DEBUG - auth.service - login with username: admin 
+12.12.2024, 18:33:06 - INFO - User login:  | {"_id":"675b0b46ac3b78a5b453caf1","username":"admin","fullname":"admin admin","isAdmin":true} 
+12.12.2024, 18:33:23 - DEBUG - auth.service - login with username: admin 
+12.12.2024, 18:33:23 - INFO - User login:  | {"_id":"675b0b46ac3b78a5b453caf1","username":"admin","fullname":"admin admin","isAdmin":true} 
+12.12.2024, 18:33:43 - INFO - server.js loaded... 
+12.12.2024, 18:33:43 - INFO - Server listening on port http://127.0.0.1:3030/ 
+12.12.2024, 18:34:12 - INFO - server.js loaded... 
+12.12.2024, 18:34:12 - INFO - Server listening on port http://127.0.0.1:3030/ 
+12.12.2024, 18:34:20 - DEBUG - auth.service - login with username: admin 
+12.12.2024, 18:34:20 - INFO - User login:  | {"_id":"675b0b46ac3b78a5b453caf1","username":"admin","fullname":"admin admin","isAdmin":true} 
+12.12.2024, 18:34:30 - INFO - Req was made | / 
+12.12.2024, 18:34:33 - INFO - Req was made | / 
+12.12.2024, 18:34:38 - INFO - server.js loaded... 
+12.12.2024, 18:34:38 - INFO - Server listening on port http://127.0.0.1:3030/ 
+12.12.2024, 18:34:50 - INFO - server.js loaded... 
+12.12.2024, 18:34:50 - INFO - Server listening on port http://127.0.0.1:3030/ 
+12.12.2024, 18:35:03 - INFO - server.js loaded... 
+12.12.2024, 18:35:03 - INFO - Server listening on port http://127.0.0.1:3030/ 
+12.12.2024, 18:35:16 - INFO - server.js loaded... 
+12.12.2024, 18:35:16 - INFO - Server listening on port http://127.0.0.1:3030/ 
+12.12.2024, 18:35:19 - INFO - Req was made | / 
+12.12.2024, 18:36:06 - DEBUG - auth.service - login with username: admin 
+12.12.2024, 18:36:06 - INFO - User login:  | {"_id":"675b0b46ac3b78a5b453caf1","username":"admin","fullname":"admin admin","isAdmin":true} 
+12.12.2024, 18:37:29 - INFO - server.js loaded... 
+12.12.2024, 18:37:29 - INFO - Server listening on port http://127.0.0.1:3030/ 
+12.12.2024, 18:38:32 - INFO - server.js loaded... 
+12.12.2024, 18:38:32 - INFO - Server listening on port http://127.0.0.1:3030/ 
+12.12.2024, 18:38:57 - DEBUG - auth.service - login with username: admin 
+12.12.2024, 18:38:57 - INFO - User login:  | {"_id":"675b0b46ac3b78a5b453caf1","username":"admin","fullname":"admin admin","isAdmin":true} 
+12.12.2024, 18:39:06 - INFO - server.js loaded... 
+12.12.2024, 18:39:06 - INFO - Server listening on port http://127.0.0.1:3030/ 
+12.12.2024, 18:40:23 - INFO - server.js loaded... 
+12.12.2024, 18:40:24 - INFO - Server listening on port http://127.0.0.1:3030/ 
+12.12.2024, 18:40:35 - DEBUG - auth.service - signup with username: admin, fullname: admin admin 
+12.12.2024, 18:40:35 - DEBUG - auth.route - new account created: {"username":"admin","password":"$2b$10$osOQYP8PfIXdoPZ42JmvB.h7bKAwRstfeYhEokW6gRrhFN8DlJaIm","fullname":"admin admin","score":0,"isAdmin":false,"_id":"675b1203ce2a78329776cb60"} 
+12.12.2024, 18:40:35 - DEBUG - auth.service - login with username: admin 
+12.12.2024, 18:41:01 - INFO - Req was made | / 
+12.12.2024, 18:41:01 - INFO - Req was made | / 
+12.12.2024, 18:41:12 - INFO - Req was made | / 
+12.12.2024, 18:41:12 - INFO - Req was made | / 
+12.12.2024, 18:41:19 - INFO - Req was made | / 
+12.12.2024, 18:41:20 - INFO - Req was made | / 
+12.12.2024, 18:41:29 - INFO - Req was made | / 
+12.12.2024, 18:41:29 - INFO - Req was made | / 
+12.12.2024, 18:41:30 - INFO - Req was made | / 
+12.12.2024, 18:41:31 - INFO - Req was made | / 
+12.12.2024, 18:41:54 - DEBUG - auth.service - login with username: admin 
+12.12.2024, 18:41:54 - INFO - User login:  | {"_id":"675b1203ce2a78329776cb60","username":"admin","fullname":"admin admin","score":0,"isAdmin":true} 
+12.12.2024, 18:41:57 - INFO - Req was made | / 
+12.12.2024, 18:42:00 - INFO - Req was made | / 
+12.12.2024, 18:42:02 - INFO - Req was made | / 
+12.12.2024, 18:42:02 - INFO - Req was made | / 
+12.12.2024, 18:42:15 - INFO - Req was made | / 
+12.12.2024, 18:42:15 - INFO - Req was made | / 
+12.12.2024, 18:42:40 - INFO - Req was made | / 
+12.12.2024, 18:42:40 - INFO - Req was made | / 
