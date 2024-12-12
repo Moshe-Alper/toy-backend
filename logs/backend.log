@@ -1,0 +1,15 @@
+12.12.2024, 16:22:02 - INFO - server.js loaded... 
+12.12.2024, 16:22:02 - INFO - Server is running on port: 3030 
+12.12.2024, 16:22:54 - INFO - server.js loaded... 
+12.12.2024, 16:22:54 - INFO - Server listening on port http://127.0.0.1:3030/ 
+12.12.2024, 16:22:59 - INFO - Req was made | / 
+12.12.2024, 16:23:05 - INFO - Req was made | / 
+12.12.2024, 16:25:00 - INFO - server.js loaded... 
+12.12.2024, 16:25:00 - INFO - Server listening on port http://127.0.0.1:3030/ 
+12.12.2024, 16:25:06 - DEBUG - auth.service - login with username: admin 
+12.12.2024, 16:25:06 - ERROR - Failed to Login Error: Invalid username or password 
+12.12.2024, 16:25:11 - INFO - Req was made | / 
+12.12.2024, 16:25:12 - INFO - Req was made | / 
+12.12.2024, 16:25:27 - INFO - Req was made | / 
+12.12.2024, 16:28:29 - INFO - server.js loaded... 
+12.12.2024, 16:28:29 - INFO - Server listening on port http://127.0.0.1:3030/ 
