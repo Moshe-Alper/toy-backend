@@ -16,17 +16,60 @@ export const toyService = {
 
 async function query(filterBy = { txt: '' }) {
 	try {
-		const criteria = {
-			name: { $regex: filterBy.txt, $options: 'i' },
+		const criteria = {}
+
+		if (filterBy.txt) {
+			criteria.name = { $regex: filterBy.txt, $options: 'i' }
 		}
+
+		if (filterBy.price) {
+			criteria.price = { $lte: filterBy.price }
+		}
+
+		if (filterBy.createdAt) {
+			criteria.createdAt = { $gte: filterBy.createdAt }
+		}
+
+		if (filterBy.isInStock !== undefined && filterBy.isInStock !== '') {
+			const isInStockBoolean = filterBy.isInStock === 'true'
+			criteria.inStock = isInStockBoolean
+		}
+
+		if (filterBy.labels && filterBy.labels.length) {
+			criteria.labels = { $all: filterBy.labels }
+		}
+
+		const sortOptions = {}
+		const { sortBy } = filterBy
+		if (sortBy && sortBy.type) {
+			const sortDir = +sortBy.desc || 1
+			if (sortBy.type === 'txt') {
+				sortOptions.name = sortDir 
+			} else {
+				sortOptions[sortBy.type] = sortDir
+			}
+		}
+
+		const { pageIdx } = filterBy
+		const PAGE_SIZE = 14
+		const skip = pageIdx !== undefined ? +pageIdx * PAGE_SIZE : 0
+		const limit = PAGE_SIZE
+
 		const collection = await dbService.getCollection('toy')
-		var toys = await collection.find(criteria).toArray()
+		const toys = await collection
+			.find(criteria)
+			.sort(sortOptions)
+			.skip(skip)
+			.limit(limit)
+			.toArray()
+
 		return toys
 	} catch (err) {
 		logger.error('cannot find toys', err)
 		throw err
 	}
 }
+
 
 async function getById(toyId) {
 	try {
@@ -44,7 +87,7 @@ async function remove(toyId) {
 	try {
 		const collection = await dbService.getCollection('toy')
 		const { deletedCount } = await collection.deleteOne({ _id: ObjectId.createFromHexString(toyId) })
-        return deletedCount
+		return deletedCount
 	} catch (err) {
 		logger.error(`cannot remove toy ${toyId}`, err)
 		throw err
@@ -93,7 +136,7 @@ async function addToyMsg(toyId, msg) {
 async function removeToyMsg(toyId, msgId) {
 	try {
 		const collection = await dbService.getCollection('toy')
-		await collection.updateOne({ _id: ObjectId.createFromHexString(toyId) }, { $pull: { msgs: { id: msgId }}})
+		await collection.updateOne({ _id: ObjectId.createFromHexString(toyId) }, { $pull: { msgs: { id: msgId } } })
 		return msgId
 	} catch (err) {
 		logger.error(`cannot add toy msg ${toyId}`, err)

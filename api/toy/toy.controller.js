@@ -9,8 +9,8 @@ export async function getToys(req, res) {
             price: +req.query.price || 0,
             isInStock: req.query.isInStock || '',
             labels: req.query.labels || [],
-            // sortBy: req.query.sortBy,
-            // pageIdx: req.query.pageIdx || undefined,
+            sortBy: req.query.sortBy,
+            pageIdx: req.query.pageIdx || undefined,
         }
         const toys = await toyService.query(filterBy)
         res.json(toys)
