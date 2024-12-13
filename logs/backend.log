@@ -381,3 +381,129 @@
 13.12.2024, 13:30:14 - INFO - Req was made | / 
 13.12.2024, 13:31:42 - INFO - server.js loaded... 
 13.12.2024, 13:31:42 - INFO - Server listening on port http://127.0.0.1:3030/ 
+13.12.2024, 13:33:56 - INFO - Req was made | / 
+13.12.2024, 13:33:57 - INFO - Req was made | / 
+13.12.2024, 13:35:29 - INFO - Req was made | / 
+13.12.2024, 13:35:29 - INFO - Req was made | / 
+13.12.2024, 13:38:47 - INFO - Req was made | / 
+13.12.2024, 13:38:47 - INFO - Req was made | / 
+13.12.2024, 13:38:54 - INFO - Req was made | / 
+13.12.2024, 13:38:55 - INFO - Req was made | / 
+13.12.2024, 13:51:46 - INFO - Req was made | / 
+13.12.2024, 13:51:47 - INFO - Req was made | / 
+13.12.2024, 13:51:47 - INFO - Req was made | / 
+13.12.2024, 13:52:11 - INFO - Req was made | / 
+13.12.2024, 13:52:12 - INFO - Req was made | / 
+13.12.2024, 13:52:16 - INFO - Req was made | / 
+13.12.2024, 13:52:17 - INFO - Req was made | / 
+13.12.2024, 13:54:57 - INFO - Req was made | / 
+13.12.2024, 13:54:57 - INFO - Req was made | / 
+13.12.2024, 13:55:39 - DEBUG - auth.service - login with username: admin 
+13.12.2024, 13:55:39 - INFO - User login:  | {"_id":"675b1203ce2a78329776cb60","username":"admin","fullname":"admin admin","score":0,"isAdmin":true} 
+13.12.2024, 13:58:39 - DEBUG - auth.service - login with username: admin 
+13.12.2024, 13:58:39 - INFO - User login:  | {"_id":"675b1203ce2a78329776cb60","username":"admin","fullname":"admin admin","score":0,"isAdmin":true} 
+13.12.2024, 13:58:49 - DEBUG - auth.service - login with username: hello 
+13.12.2024, 13:58:49 - ERROR - Failed to Login Error: Invalid username or password 
+13.12.2024, 14:00:04 - DEBUG - auth.service - login with username: admin 
+13.12.2024, 14:00:04 - INFO - User login:  | {"_id":"675b1203ce2a78329776cb60","username":"admin","fullname":"admin admin","score":0,"isAdmin":true} 
+13.12.2024, 14:46:48 - INFO - Req was made | / 
+13.12.2024, 14:46:49 - INFO - Req was made | / 
+13.12.2024, 14:46:53 - INFO - Req was made | / 
+13.12.2024, 14:46:53 - INFO - Req was made | / 
+13.12.2024, 14:46:59 - DEBUG - auth.service - login with username: admin 
+13.12.2024, 14:46:59 - INFO - User login:  | {"_id":"675b1203ce2a78329776cb60","username":"admin","fullname":"admin admin","score":0,"isAdmin":true} 
+13.12.2024, 14:47:02 - INFO - Req was made | / 
+13.12.2024, 14:47:03 - INFO - Req was made | / 
+13.12.2024, 14:47:06 - INFO - Req was made | / 
+13.12.2024, 14:47:06 - INFO - Req was made | / 
+13.12.2024, 14:47:11 - INFO - Req was made | / 
+13.12.2024, 14:47:11 - INFO - Req was made | / 
+13.12.2024, 14:47:13 - INFO - Req was made | / 
+13.12.2024, 14:47:13 - INFO - Req was made | / 
+13.12.2024, 14:47:15 - INFO - Req was made | / 
+13.12.2024, 14:47:16 - INFO - Req was made | / 
+13.12.2024, 14:47:22 - INFO - Req was made | / 
+13.12.2024, 14:47:23 - INFO - Req was made | / 
+13.12.2024, 14:47:24 - INFO - Req was made | / 
+13.12.2024, 14:47:25 - INFO - Req was made | / 
+13.12.2024, 14:57:52 - DEBUG - auth.service - login with username: admin 
+13.12.2024, 14:57:52 - INFO - User login:  | {"_id":"675b1203ce2a78329776cb60","username":"admin","fullname":"admin admin","score":0,"isAdmin":true} 
+13.12.2024, 14:58:31 - DEBUG - auth.service - signup with username: hello, fullname: hello hello 
+13.12.2024, 14:58:31 - DEBUG - auth.route - new account created: {"username":"hello","password":"$2b$10$e3oWAHXUzZy4TC1E9alR5eS8Bes1TwqexcjuPseDo71UxN/wi/oLq","fullname":"hello hello","score":0,"isAdmin":false,"_id":"675c2f770b918fa6d1041fee"} 
+13.12.2024, 14:58:31 - DEBUG - auth.service - login with username: hello 
+13.12.2024, 15:10:13 - DEBUG - auth.service - login with username: admin 
+13.12.2024, 15:10:13 - INFO - User login:  | {"_id":"675b1203ce2a78329776cb60","username":"admin","fullname":"admin admin","score":0,"isAdmin":true} 
+13.12.2024, 15:10:25 - DEBUG - auth.service - signup with username: 2213131313, fullname: 1313131331 
+13.12.2024, 15:10:25 - DEBUG - auth.route - new account created: {"username":"2213131313","password":"$2b$10$gXSR/E0dN.hQFckjdAdL8uTk8XfH5XC0lh420you.WisteHiygt.q","fullname":"1313131331","score":0,"isAdmin":false,"_id":"675c32410b918fa6d1041fef"} 
+13.12.2024, 15:10:25 - DEBUG - auth.service - login with username: 2213131313 
+13.12.2024, 15:15:38 - INFO - Req was made | / 
+13.12.2024, 15:15:38 - INFO - Req was made | / 
+13.12.2024, 15:30:08 - INFO - server.js loaded... 
+13.12.2024, 15:30:08 - INFO - Server listening on port http://127.0.0.1:3030/ 
+13.12.2024, 15:30:30 - INFO - server.js loaded... 
+13.12.2024, 15:30:30 - INFO - Server listening on port http://127.0.0.1:3030/ 
+13.12.2024, 15:31:01 - DEBUG - auth.service - signup with username: user123, fullname: user user 
+13.12.2024, 15:31:01 - DEBUG - auth.route - new account created: {"username":"user123","password":"$2b$10$fgd2U1nCe2WrCbHywCG3H.ldhR6DHFT7z3SMeewQ8jPvhIr7W.eCa","fullname":"user user","score":0,"isAdmin":false,"_id":"675c3715b1adb31cfb970166"} 
+13.12.2024, 15:31:01 - DEBUG - auth.service - login with username: user123 
+13.12.2024, 15:31:05 - INFO - Req was made | / 
+13.12.2024, 15:31:05 - INFO - Req was made | / 
+13.12.2024, 15:31:13 - INFO - Req was made | / 
+13.12.2024, 15:31:46 - INFO - server.js loaded... 
+13.12.2024, 15:31:46 - INFO - Server listening on port http://127.0.0.1:3030/ 
+13.12.2024, 15:31:56 - INFO - server.js loaded... 
+13.12.2024, 15:31:56 - INFO - Server listening on port http://127.0.0.1:3030/ 
+13.12.2024, 15:31:58 - WARN - user userattempted to perform admin action 
+13.12.2024, 15:32:00 - WARN - user userattempted to perform admin action 
+13.12.2024, 15:32:01 - WARN - user userattempted to perform admin action 
+13.12.2024, 15:32:13 - DEBUG - auth.service - login with username: admin 
+13.12.2024, 15:32:13 - INFO - User login:  | {"_id":"675b1203ce2a78329776cb60","username":"admin","fullname":"admin admin","score":0,"isAdmin":true} 
+13.12.2024, 15:32:16 - INFO - Req was made | / 
+13.12.2024, 15:32:17 - INFO - Req was made | / 
+13.12.2024, 15:32:33 - DEBUG - auth.service - login with username: user user 
+13.12.2024, 15:32:33 - ERROR - Failed to Login Error: Invalid username or password 
+13.12.2024, 15:32:35 - DEBUG - auth.service - login with username: user user 
+13.12.2024, 15:32:35 - ERROR - Failed to Login Error: Invalid username or password 
+13.12.2024, 15:32:43 - DEBUG - auth.service - login with username: user user 
+13.12.2024, 15:32:43 - ERROR - Failed to Login Error: Invalid username or password 
+13.12.2024, 15:32:56 - DEBUG - auth.service - signup with username: user user2, fullname: 12e11e 
+13.12.2024, 15:32:56 - DEBUG - auth.route - new account created: {"username":"user user2","password":"$2b$10$9sR3uurkjTBiLwDRIuWbl.HoV.HMvddNWE9qBfFAkChmcConxAzba","fullname":"12e11e","score":0,"isAdmin":false,"_id":"675c378836e0b83118301a5d"} 
+13.12.2024, 15:32:56 - DEBUG - auth.service - login with username: user user2 
+13.12.2024, 15:32:57 - INFO - Req was made | / 
+13.12.2024, 15:32:58 - INFO - Req was made | / 
+13.12.2024, 15:32:59 - WARN - 12e11eattempted to perform admin action 
+13.12.2024, 15:33:01 - WARN - 12e11eattempted to perform admin action 
+13.12.2024, 15:33:41 - INFO - Req was made | / 
+13.12.2024, 15:33:41 - INFO - Req was made | / 
+13.12.2024, 15:34:01 - INFO - server.js loaded... 
+13.12.2024, 15:34:01 - INFO - Server listening on port http://127.0.0.1:3030/ 
+13.12.2024, 15:34:03 - INFO - Req was made | / 
+13.12.2024, 15:34:03 - INFO - Req was made | / 
+13.12.2024, 15:34:07 - INFO - Req was made | / 
+13.12.2024, 15:34:08 - INFO - Req was made | / 
+13.12.2024, 15:34:28 - INFO - Req was made | / 
+13.12.2024, 15:34:28 - INFO - Req was made | / 
+13.12.2024, 15:34:35 - INFO - server.js loaded... 
+13.12.2024, 15:34:35 - INFO - Server listening on port http://127.0.0.1:3030/ 
+13.12.2024, 15:34:37 - INFO - Req was made | / 
+13.12.2024, 15:34:38 - INFO - Req was made | / 
+13.12.2024, 15:34:41 - WARN - 12e11eattempted to perform admin action 
+13.12.2024, 15:34:59 - INFO - server.js loaded... 
+13.12.2024, 15:34:59 - INFO - Server listening on port http://127.0.0.1:3030/ 
+13.12.2024, 15:35:06 - INFO - Req was made | / 
+13.12.2024, 15:35:07 - INFO - Req was made | / 
+13.12.2024, 15:35:07 - WARN - 12e11eattempted to perform admin action 
+13.12.2024, 15:35:11 - WARN - 12e11eattempted to perform admin action 
+13.12.2024, 15:35:13 - INFO - Req was made | / 
+13.12.2024, 15:35:13 - INFO - Req was made | / 
+13.12.2024, 15:35:14 - WARN - 12e11eattempted to perform admin action 
+13.12.2024, 15:35:26 - INFO - Req was made | / 
+13.12.2024, 15:35:26 - INFO - Req was made | / 
+13.12.2024, 15:35:33 - WARN - 12e11eattempted to perform admin action 
+13.12.2024, 15:35:43 - DEBUG - auth.service - login with username: admin 
+13.12.2024, 15:35:44 - INFO - User login:  | {"_id":"675b1203ce2a78329776cb60","username":"admin","fullname":"admin admin","score":0,"isAdmin":true} 
+13.12.2024, 15:35:46 - INFO - Req was made | / 
+13.12.2024, 15:35:47 - INFO - Req was made | / 
+13.12.2024, 15:35:55 - INFO - Req was made | / 
+13.12.2024, 15:35:55 - INFO - Req was made | / 
+13.12.2024, 15:35:57 - INFO - Req was made | / 
+13.12.2024, 15:35:57 - INFO - Req was made | / 
