@@ -51,7 +51,7 @@ async function query(filterBy = { txt: '' }) {
 		}
 
 		const { pageIdx } = filterBy
-		const PAGE_SIZE = 14
+		const PAGE_SIZE = 16
 		const skip = pageIdx !== undefined ? +pageIdx * PAGE_SIZE : 0
 		const limit = PAGE_SIZE
 
@@ -69,7 +69,6 @@ async function query(filterBy = { txt: '' }) {
 		throw err
 	}
 }
-
 
 async function getById(toyId) {
 	try {

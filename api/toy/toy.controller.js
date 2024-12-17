@@ -72,6 +72,7 @@ export async function addToyMsg(req, res) {
     try {
         const toyId = req.params.id
         const msg = {
+            id: req.body.id,
             txt: req.body.txt,
             by: loggedinUser,
             createdAt: Date.now(),
