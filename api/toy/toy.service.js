@@ -30,10 +30,9 @@ async function query(filterBy = { txt: '' }) {
 			criteria.createdAt = { $gte: filterBy.createdAt }
 		}
 
-		if (filterBy.isInStock !== undefined && filterBy.isInStock !== '') {
-			const isInStockBoolean = filterBy.isInStock === 'true'
-			criteria.inStock = isInStockBoolean
-		}
+        if (filterBy.isInStock !== undefined) {
+            criteria.inStock = filterBy.isInStock
+        }
 
 		if (filterBy.labels && filterBy.labels.length) {
 			criteria.labels = { $all: filterBy.labels }

@@ -7,11 +7,14 @@ export async function getToys(req, res) {
             txt: req.query.txt || '',
             createdAt: +req.query.createdAt || 0,
             price: +req.query.price || 0,
-            isInStock: req.query.isInStock || '',
-            labels: req.query.labels || [],
+            isInStock: req.query.isInStock ? req.query.isInStock === 'true' : undefined,
+            labels: req.query.labels || [], 
             sortBy: req.query.sortBy,
             pageIdx: req.query.pageIdx || undefined,
         }
+
+        console.log('Filter By:', filterBy)
+
         const toys = await toyService.query(filterBy)
         res.json(toys)
     } catch (err) {
@@ -47,7 +50,7 @@ export async function addToy(req, res) {
 
 export async function updateToy(req, res) {
     try {
-        const toy = { ...req.body, _id: req.params.id }
+        const toy = { ...req.bod }
         const updatedToy = await toyService.update(toy)
         res.json(updatedToy)
     } catch (err) {
@@ -94,5 +97,14 @@ export async function removeToyMsg(req, res) {
     } catch (err) {
         logger.error('Failed to remove toy msg', err)
         res.status(500).send({ err: 'Failed to remove toy msg' })
+    }
+}
+
+// Helper functions
+function _tryParseJSON(jsonString) {
+    try {
+        return JSON.parse(jsonString)
+    } catch (e) {
+        return []
     }
 }
