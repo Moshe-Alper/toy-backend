@@ -16,34 +16,14 @@ export const toyService = {
 
 async function query(filterBy = { txt: '' }) {
 	try {
-		const criteria = {}
-
-		if (filterBy.txt) {
-			criteria.name = { $regex: filterBy.txt, $options: 'i' }
-		}
-
-		if (filterBy.price) {
-			criteria.price = { $lte: filterBy.price }
-		}
-
-		if (filterBy.createdAt) {
-			criteria.createdAt = { $gte: filterBy.createdAt }
-		}
-
-        if (filterBy.isInStock !== undefined) {
-            criteria.inStock = filterBy.isInStock
-        }
-
-		if (filterBy.labels && filterBy.labels.length) {
-			criteria.labels = { $all: filterBy.labels }
-		}
+		const criteria = _buildCriteria(filterBy)
 
 		const sortOptions = {}
 		const { sortBy } = filterBy
 		if (sortBy && sortBy.type) {
 			const sortDir = +sortBy.desc || 1
 			if (sortBy.type === 'txt') {
-				sortOptions.name = sortDir 
+				sortOptions.name = sortDir
 			} else {
 				sortOptions[sortBy.type] = sortDir
 			}
@@ -107,8 +87,9 @@ async function update(toy) {
 	try {
 		const toyToSave = {
 			name: toy.name,
-			price: toy.price,
+			price: +toy.price,
 		}
+		if (!toyToSave.price) throw new Error('Price is required')
 		const collection = await dbService.getCollection('toy')
 		await collection.updateOne({ _id: ObjectId.createFromHexString(toy._id) }, { $set: toyToSave })
 		return toy
@@ -120,11 +101,15 @@ async function update(toy) {
 
 async function addToyMsg(toyId, msg) {
 	try {
-		msg.id = utilService.makeId()
+		msg.id = msg.id || utilService.makeId()
+		msg.createdAt = msg.createdAt || Date.now()
 
 		const collection = await dbService.getCollection('toy')
-		await collection.updateOne({ _id: ObjectId.createFromHexString(toyId) }, { $push: { msgs: msg } })
+		await collection.updateOne(
+			{ _id: ObjectId.createFromHexString(toyId) },
+			[{ $set: { msgs: { $concatArrays: [[msg], '$msgs'] } } }])
 		return msg
+
 	} catch (err) {
 		logger.error(`cannot add toy msg ${toyId}`, err)
 		throw err
@@ -140,4 +125,31 @@ async function removeToyMsg(toyId, msgId) {
 		logger.error(`cannot add toy msg ${toyId}`, err)
 		throw err
 	}
+}
+
+// Private Functions
+function _buildCriteria(filterBy) {
+	const criteria = {}
+
+	if (filterBy.txt) {
+		criteria.name = { $regex: filterBy.txt, $options: 'i' }
+	}
+
+	if (filterBy.price) {
+		criteria.price = { $lte: filterBy.price }
+	}
+
+	if (filterBy.createdAt) {
+		criteria.createdAt = { $gte: filterBy.createdAt }
+	}
+
+	if (filterBy.isInStock !== undefined) {
+		criteria.inStock = filterBy.isInStock
+	}
+
+	if (filterBy.labels && filterBy.labels.length) {
+		criteria.labels = { $all: filterBy.labels }
+	}
+
+	return criteria
 }

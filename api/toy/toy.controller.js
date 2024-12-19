@@ -75,10 +75,8 @@ export async function addToyMsg(req, res) {
     try {
         const toyId = req.params.id
         const msg = {
-            id: req.body.id,
             txt: req.body.txt,
             by: loggedinUser,
-            createdAt: Date.now(),
         }
         const savedMsg = await toyService.addToyMsg(toyId, msg)
         res.json(savedMsg)
@@ -100,11 +98,3 @@ export async function removeToyMsg(req, res) {
     }
 }
 
-// Helper functions
-function _tryParseJSON(jsonString) {
-    try {
-        return JSON.parse(jsonString)
-    } catch (e) {
-        return []
-    }
-}
